@@ -12,7 +12,6 @@ build/
 .env.production.local
 
 # Capacitor
-capacitor.config.json
 ios/
 web/
 # Android build outputs (already covered in android/.gitignore, but safe to add)
