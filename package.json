@@ -1,0 +1,23 @@
+{
+  "name": "modern-snake-xenzia",
+  "version": "1.0.0",
+  "description": "A modern web-based implementation of the classic mobile game Snake Xenzia, designed with a sleek, mobile-first interface and responsive controls. Relive the nostalgia with updated graphics and smooth gameplay.",
+  "scripts": {
+    "start": "serve . -l 3000",
+    "build": "echo \"Build step not required for this project as it uses browser-native ESM and importmaps.\"",
+    "test": "echo \"No tests configured.\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4",
+    "framer-motion": "^11.2.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "serve": "^14.2.3"
+  }
+}
